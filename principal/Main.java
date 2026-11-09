@@ -2,7 +2,7 @@ package app;
 
 import modelo.Tarefa;
 import modelo.TarefaComPrazo;
-import servico.GerenciadorTarefas;
+import principal.GerenciadorTarefas;
 import java.util.Scanner;
 
 public class Main {
