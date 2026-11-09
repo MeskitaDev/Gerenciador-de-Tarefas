@@ -19,16 +19,6 @@ O programa mostra um menu e roda até o usuário digitar `0`.
 
 **Conceitos aplicados:** condicionais (`if`, `switch`), laços (`while`, `for`), funções/métodos, e POO (classes, encapsulamento, herança com `Tarefa` → `TarefaComPrazo`).
 
-## Estrutura do projeto
-```
-GerenciadorTarefas/
-└── src/
-    ├── app/      Main.java                  (menu e funções do programa)
-    ├── modelo/   Tarefa.java                (classe base)
-    │             TarefaComPrazo.java        (herda de Tarefa)
-    └── servico/  GerenciadorTarefas.java    (guarda a lista e faz o CRUD)
-```
-
 ## Como executar
 Requisito: **JDK** instalado (`javac -version` para conferir).
 
